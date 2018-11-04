@@ -79,6 +79,6 @@ if __name__ == '__main__':
     #for i in range(len(frames)):
         #print(frames[i].shape)
     model = Learning.train(frames, labels, epoches=5, lr=0.0001)
-    print(model)
+    #print(model)
     #predictVideo(model, labels)
     Video.predictVideo(model, labels)
